@@ -8,7 +8,7 @@
     <HelloWorld tochild="给孩子值" @bindSend="propMsg" />
     <div>
       <input type="text" value="去about页面" v-model="goAboutPageData" />
-      <button @click="goAbout">跳转</button>
+      <button @click="goAbout">跳转go</button>
     </div>
   </div>
 </template>
