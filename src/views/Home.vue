@@ -1,18 +1,49 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <h1>home父组件</h1>
+    </div>
+    <div>从子组件传来的值:{{msg}}</div>
+    <div>Watch:{{watchdata}}</div>
+    <HelloWorld tochild="给孩子值" @bindSend="propMsg" />
+    <div>
+      <input type="text" value="去about页面" v-model="goAboutPageData" />
+      <button @click="goAbout">跳转</button>
+    </div>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
+<script lang="ts">
+import HelloWorld from "@/components/HelloWorld.vue";
+import { Component, Vue, Watch } from "vue-property-decorator";
+@Component({
   components: {
     HelloWorld
+  }
+})
+export default class Home extends Vue {
+  //子父组件传值的代码
+  private msg: string = "";
+  propMsg(zmsg:string) {
+    this.msg = zmsg;
+  }
+
+  //watch的相关代码
+  private watchdata: string = "";
+  @Watch("msg")
+  private watchdata1() {
+    let that = this
+  that.watchdata = 'watch改变的值'
+  }
+
+
+  //去about页面
+  private goAboutPageData: string = "";
+  private goAbout():void{
+  this.$router.push({
+    name:'about',
+    params:{toAbout:"123456"},
+    query:{id:"456789"},
+  })
   }
 }
 </script>
