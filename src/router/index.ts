@@ -29,7 +29,15 @@ const routes = [
     path: '/profile',
     name: 'profile',
     component: () => import(/* webpackChunkName: "profile" */ '../views/profile.vue'),
-  },
+  },{
+        path: '/npmTest',
+        name: 'npmTest',
+        component: () => import(/* webpackChunkName: "profile" */ '../views/npmTest.vue'),
+    },{
+      path: '/fullpage',
+      name: 'fullpage',
+      component: () => import(/* webpackChunkName: "fullpage" */ '../views/fullpage.vue'),
+  }
 ]
 
 const router = new VueRouter({

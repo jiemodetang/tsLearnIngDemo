@@ -8,9 +8,13 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "calendar-lite": "^0.1.0",
     "core-js": "^3.1.2",
+    "moment": "^2.24.0",
+    "v2-datepicker": "^3.1.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
+    "vue-fullpage.js": "^0.1.4",
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.6",
     "vuex": "^3.0.1"

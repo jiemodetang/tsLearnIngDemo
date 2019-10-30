@@ -45,5 +45,6 @@ export default class Home extends Vue {
     query:{id:"456789"},
   })
   }
+
 }
 </script>

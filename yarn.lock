@@ -1924,6 +1924,11 @@ cache-loader@^4.1.0:
     neo-async "^2.6.1"
     schema-utils "^2.0.0"
 
+calendar-lite@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/calendar-lite/download/calendar-lite-0.1.0.tgz#dd609fcb6416ea7fba664fa5424f377e2ee2e6b7"
+  integrity sha1-3WCfy2QW6n+6Zk+lQk83fi7i5rc=
+
 call-me-maybe@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/call-me-maybe/download/call-me-maybe-1.0.1.tgz#26d208ea89e37b5cbde60250a15f031c16a4d66b"
@@ -3703,6 +3708,11 @@ fsevents@^1.2.7:
     nan "^2.12.1"
     node-pre-gyp "^0.12.0"
 
+fullpage.js@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.npm.taobao.org/fullpage.js/download/fullpage.js-3.0.7.tgz#27d4815f39ad26019bf96dbc7644ac7ec6226f39"
+  integrity sha1-J9SBXzmtJgGb+W28dkSsfsYibzk=
+
 function-bind@^1.0.2, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -5240,6 +5250,11 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+moment@^2.24.0:
+  version "2.24.0"
+  resolved "https://registry.npm.taobao.org/moment/download/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha1-DQVdU/UFKqZTyfbraLtdEr9cK1s=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -8020,6 +8035,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.3.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
   integrity sha1-RWjwIW54dg7h2/Ok0s9T4iQRKGY=
 
+v2-datepicker@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/v2-datepicker/download/v2-datepicker-3.1.1.tgz#1f7583695e30c08f7ddad83acf2f233ed2b38b0e"
+  integrity sha1-H3WDaV4wwI992tg6zy8jPtKziw4=
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.npm.taobao.org/validate-npm-package-license/download/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -8068,6 +8088,13 @@ vue-eslint-parser@^5.0.0:
     espree "^4.1.0"
     esquery "^1.0.1"
     lodash "^4.17.11"
+
+vue-fullpage.js@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npm.taobao.org/vue-fullpage.js/download/vue-fullpage.js-0.1.4.tgz#344946053d6d0b1f88826d1762e9cbe3cd5dd8b6"
+  integrity sha1-NElGBT1tCx+Igm0XYunL481d2LY=
+  dependencies:
+    fullpage.js "^3.0.7"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

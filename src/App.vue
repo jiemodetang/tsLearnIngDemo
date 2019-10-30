@@ -2,8 +2,15 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/npmTest">npmTest</router-link> |
+          <!-- 搞一个fullpage -->
+    <router-link to="/fullpage">去测试一下fullpage</router-link>
     </div>
+
+
+  
+
     <router-view/>
   </div>
 </template>
