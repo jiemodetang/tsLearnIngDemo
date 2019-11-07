@@ -8,10 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.8",
     "calendar-lite": "^0.1.0",
     "core-js": "^3.1.2",
+    "fontmin": "^0.9.8",
     "moment": "^2.24.0",
     "v2-datepicker": "^3.1.1",
+    "vee-validate": "^3.0.11",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-fullpage.js": "^0.1.4",
