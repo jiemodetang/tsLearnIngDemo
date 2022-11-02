@@ -13,7 +13,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.8",
     "calendar-lite": "^0.1.0",
     "core-js": "^3.1.2",
-    "fontmin": "^0.9.8",
+    "fontmin": "^0.9.9",
     "moment": "^2.24.0",
     "v2-datepicker": "^3.1.1",
     "vee-validate": "^3.0.11",
